@@ -2,6 +2,9 @@ class ApplicationController < ActionController::Base
   protect_from_forgery
 
   def home
+    # Ensure that the user model is loaded
+    AdminUser
+
     GC.start
 
     # Top objects by class
