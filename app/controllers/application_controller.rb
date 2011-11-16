@@ -3,7 +3,7 @@ class ApplicationController < ActionController::Base
 
   def home
     # Ensure that the user model is loaded
-    AdminUser
+    current_admin_user
 
     GC.start
 

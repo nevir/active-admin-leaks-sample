@@ -18,6 +18,8 @@ end
 
 gem 'jquery-rails'
 
+gem 'devise', '1.5.0'
+
 # Use unicorn as the web server
 # gem 'unicorn'
 
